@@ -1,8 +1,32 @@
 aid: arx
-name: ARX
-description: 'ARX is a company surfaced as a portfolio company of hv-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: resilience-defence. This profile is a lead awaiting the enrichment
-  pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arx.png
+name: ARX Robotics
+description: >-
+  ARX Robotics is a European defense technology company building autonomous
+  unmanned ground systems and the software that runs them. Its flagship Mithra
+  OS is an AI-driven autonomy platform that turns legacy and modern military
+  vehicles into software-defined, autonomous units, while its Gereon RCS line
+  delivers scalable robotic ground vehicles for reconnaissance, firepower,
+  clearance, surveillance, cargo, and casualty evacuation across defense and
+  commercial missions. Headquartered in Munich with offices in Berlin, the UK,
+  and Ukraine, ARX operates one of Europe's largest autonomous defense systems
+  production facilities and has delivered unmanned ground systems to Ukraine.
+  The company is venture-backed (a €31M Series A extended by €11M, with HV
+  Capital among its investors) and partners with RENK, DEUTZ, Helsing, and
+  Quantum Systems to strengthen Europe's technological resilience and defense
+  sovereignty. ARX publishes no public developer API; this profile captures the
+  company's public web presence and an llms.txt it publishes for AI agents.
 url: https://raw.githubusercontent.com/api-evangelist/arx/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +36,47 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Resilience Defence
+- Robotics
+- Autonomous Systems
+- Defense Technology
+- Unmanned Ground Vehicles
+- Artificial Intelligence
+- Europe
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/arx-domain-security.yml
+- type: Website
+  url: https://www.arx-robotics.com
+- type: About
+  url: https://www.arx-robotics.com/about-us
+- type: Blog
+  url: https://www.arx-robotics.com/news
+- type: Press
+  url: https://www.arx-robotics.com/press
+- type: Support
+  url: https://www.arx-robotics.com/contact
+- type: Careers
+  url: https://www.arx-robotics.com/careers
+- type: TermsOfService
+  url: https://www.arx-robotics.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.arx-robotics.com/legal/privacy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/arx-robotics
+- type: LLMsTxt
+  url: llms/arx-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,14 @@
+{
+  "repo": "arx",
+  "feeds": [
+    {
+      "source": "https://www.arx-robotics.com/about-us",
+      "feed_url": "https://www.arx-robotics.com/about-us",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-20T13:31:34Z"
+}
