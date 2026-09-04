@@ -23,21 +23,16 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arx.png
 name: ARX Robotics
-description: >-
-  ARX Robotics is a European defense technology company building autonomous
-  unmanned ground systems and the software that runs them. Its flagship Mithra
-  OS is an AI-driven autonomy platform that turns legacy and modern military
-  vehicles into software-defined, autonomous units, while its Gereon RCS line
-  delivers scalable robotic ground vehicles for reconnaissance, firepower,
-  clearance, surveillance, cargo, and casualty evacuation across defense and
-  commercial missions. Headquartered in Munich with offices in Berlin, the UK,
-  and Ukraine, ARX operates one of Europe's largest autonomous defense systems
-  production facilities and has delivered unmanned ground systems to Ukraine.
-  The company is venture-backed (a €31M Series A extended by €11M, with HV
-  Capital among its investors) and partners with RENK, DEUTZ, Helsing, and
-  Quantum Systems to strengthen Europe's technological resilience and defense
-  sovereignty. ARX publishes no public developer API; this profile captures the
-  company's public web presence and an llms.txt it publishes for AI agents.
+description: ARX Robotics is a European defense technology company building autonomous unmanned ground systems and
+  the software that runs them. Its flagship Mithra OS is an AI-driven autonomy platform that turns legacy and modern
+  military vehicles into software-defined, autonomous units, while its Gereon RCS line delivers scalable robotic
+  ground vehicles for reconnaissance, firepower, clearance, surveillance, cargo, and casualty evacuation across
+  defense and commercial missions. Headquartered in Munich with offices in Berlin, the UK, and Ukraine, ARX operates
+  one of Europe's largest autonomous defense systems production facilities and has delivered unmanned ground systems
+  to Ukraine. The company is venture-backed (a €31M Series A extended by €11M, with HV Capital among its investors)
+  and partners with RENK, DEUTZ, Helsing, and Quantum Systems to strengthen Europe's technological resilience and
+  defense sovereignty. ARX publishes no public developer API; this profile captures the company's public web presence
+  and an llms.txt it publishes for AI agents.
 url: https://raw.githubusercontent.com/api-evangelist/arx/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -86,6 +81,10 @@ common:
   url: https://www.linkedin.com/company/arx-robotics
 - type: LLMsTxt
   url: llms/arx-llms.txt
+- type: Website
+  url: https://arx-robotics.com
+- type: Blog
+  url: https://arx-robotics.com/news
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
